@@ -41,8 +41,7 @@ let empinfo: empDetails = {
     debtToIncomeRatio: 35.0
 }
 
-function loanStatus(employee: empDetails): string {
-    let { customerName, creditScore, income, isEmployed, debtToIncomeRatio } = employee;
+function loanStatus({ customerName, creditScore, income, isEmployed, debtToIncomeRatio }: empDetails): string {
 
     if (creditScore > 750) {
         return `${customerName}! Your loan is automatically approved.`;

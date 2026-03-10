@@ -39,7 +39,7 @@ let currentYear:number=2023;
 console.log("Current year: " + currentYear);
 
 //Eleventh
-let socialMediaFollowers : number =1000000;
+let socialMediaFollowers : string ="1,000,000";
 console.log("Number of followers on a social media platform: " , socialMediaFollowers);
 
 //Twelth
